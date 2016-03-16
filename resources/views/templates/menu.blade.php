@@ -1,4 +1,4 @@
-<nav class="navbar-default navbar-side" role="navigation">
+<nav class="navbar-default navbar-side" style="padding-top: 20px;" role="navigation">
     <div class="sidebar-collapse">
         <ul class="nav nav-menu" id="main-menu">
 

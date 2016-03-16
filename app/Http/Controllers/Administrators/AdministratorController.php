@@ -7,9 +7,14 @@ use Illuminate\Routing\Controller;
 
 class AdministratorController extends Controller
 {
-	public function getIndex()
+	public function index()
     {
-    	return view('patients.index');
+    	return view('administrators.index');
+    }
+
+    public function getNew()
+    {
+    	return view('administrators.user.new');
     }
 
 }

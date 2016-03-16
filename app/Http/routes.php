@@ -14,7 +14,13 @@
 Route::controller('home', 'HomeController');
 Route::controller('patient', 'PatientController');
 Route::controller('referout', 'ReferoutController');
-Route::controller('administrator', 'Administrators\AdministratorController');
+Route::group(['prefix'=>'administrator'], function(){
+
+	Route::get('/', 'Administrators\AdministratorController@index');
+
+	Route::controller('user', 'Administrators\UserController');
+
+});
 /*
 |--------------------------------------------------------------------------
 | Application Routes
