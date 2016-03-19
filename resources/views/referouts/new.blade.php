@@ -46,7 +46,7 @@
 
                                 <div class="control-label col-xs-2">
                                     <input type="radio" name="risk" id="inlineCheckbox1" value="option1"> Trauma
-                                     <input type="radio" name="risk" id="inlineCheckbox2" value="option1"> Non-Trauma                             
+                                    <input type="radio" name="risk" id="inlineCheckbox2" value="option1"> Non-Trauma                             
                                 </div>
 
                               </div>
@@ -130,11 +130,17 @@
                     <div class="col-lg-12">
                         <ul class="nav nav-tabs">
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <li class="active"><a href="#home" data-toggle="tab">ข้อมูลการส่งต่อ</a>
                             </li>
                             <li class=""><a href="#profile" data-toggle="tab">อาการ</a>
 =======
                             <li class="active"><a href="#home" data-toggle="tab">อาการแรกรับ</a>
+=======
+                            <li class="active"><a href="#Fastrac" data-toggle="tab">Fastrac MI/Stroke</a>
+                            </li>
+                            <li><a href="#home" data-toggle="tab">อาการแรกรับ</a>
+>>>>>>> origin/master
                             </li>
                             <li class=""><a href="#profile" data-toggle="tab">การรักษาที่ได้รับ</a>
 >>>>>>> origin/master
@@ -145,10 +151,12 @@
                             </li>
                         </ul>
                         <div class="tab-content">
-                            <div class="tab-pane fade active in" id="home">
+
+                            <div class="tab-pane fade active in" id="Fastrac">
                                 <h4></h4>
                                 <div class="form-horizontal">
                                     <fieldset>
+<<<<<<< HEAD
                                       <!-- Text input-->
                                       <div class="form-group">
                                         <label class="col-xs-2 control-label" for="textinput">Line 1</label>
@@ -194,114 +202,114 @@
                                           <input type="text" placeholder="Country" class="form-control">
                                         </div>
                                       </div>
+=======
+                                        <div class="form-group">
+                                            <label>&nbsp&nbsp&nbsp LR G</label>
+                                                <input type="text" class="text-center" style="width:50px">
+                                            <label>P</label>
+                                                <input type="text" class="text-center" style="width:50px">
+                                            <label>A</label>
+                                                <input type="text" class="text-center" style="width:50px">
+                                            <label>I</label>
+                                                <input type="text" class="text-center" style="width:50px">
+                                            <label>GA</label>
+                                                <input type="text" class="text-center" style="width:50px">
+                                            <label>WK</label>
+
+                                            <label>&nbsp&nbsp&nbsp I</label>
+                                                <input type="text" class="text-center" style="width:50px">
+                                            <label>D</label>
+                                                <input type="text" class="text-center" style="width:50px">
+                                            <label>Eff</label>
+                                                <input type="text" class="text-center" style="width:50px">
+                                            <label>%</label>
+                                            <label>&nbsp&nbsp&nbsp Station</label>
+                                                <input type="text" class="text-center" style="width:50px">
+                                            <label>MR/MI</label>
+
+                                            <label>&nbsp&nbsp&nbsp FHS</label>
+                                                <input type="text" class="text-center" style="width:50px">
+                                            <label>ครั้ง</label>
+                                        </div> 
+
+                                        <div class="form-group">
+                                            <label>&nbsp&nbsp&nbsp V/S แรกรับ BP</label>
+                                                <input type="text" class="text-center" style="width:50px">/<input type="text" class="text-center" style="width:50px">
+                                            <label>mmHg</label>
+                                            <label>P</label>
+                                                <input type="text" class="text-center" style="width:80px">
+                                            <label>RR</label>
+                                                <input type="text" class="text-center" style="width:80px">
+                                            <label>T</label>
+                                                <input type="text" class="text-center" style="width:80px">
+                                            <label>spo2</label>
+                                                <input type="text" class="text-center" style="width:80px">
+                                            <label>GCS E</label>
+                                                <input type="text" class="text-center" style="width:80px">
+                                            <label>V</label>
+                                                <input type="text" class="text-center" style="width:80px">
+                                            <label>M</label>
+                                                <input type="text" class="text-center" style="width:80px">
+                                        </div> 
+                                    </fieldset>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="home">
+                                <h4></h4>
+                                <div class="form-horizontal">
+                                    <fieldset>
+                                        <textarea class="form-control" rows="5"></textarea>
+>>>>>>> origin/master
                                     </fieldset>
                                 </div>
                             </div>
 
                             <div class="tab-pane fade" id="profile">
-                                <h4>Profile Tab</h4>
+                                <h4></h4>
                                 <div class="table-responsive">
-                                <table class="table table-striped table-bordered table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th>#</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
-                                            <th>Username</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                                    <textarea class="form-control" rows="5"></textarea>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="messages">
-                                <h4>Messages Tab</h4>
+                                <h4></h4>
                                 <div class="table-responsive">
-                                <table class="table table-striped table-bordered table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th>#</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
-                                            <th>Username</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                                    <textarea class="form-control" rows="5"></textarea>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="settings">
-                                <h4>Settings Tab</h4>
+                                <h4></h4>
                                 <div class="table-responsive">
-                                <table class="table table-striped table-bordered table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th>#</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
-                                            <th>Username</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                                    <div class="form-group">
+                                        <label>&nbsp&nbsp&nbsp V/S ก่อนออกมา BP</label>
+                                                <input type="text" class="text-center" style="width:50px">/<input type="text" class="text-center" style="width:50px">
+                                        <label>mmHg</label>
+                                        <label>P</label>
+                                            <input type="text" class="text-center" style="width:80px">
+                                        <label>RR</label>
+                                            <input type="text" class="text-center" style="width:80px">
+                                        <label>T</label>
+                                            <input type="text" class="text-center" style="width:80px">
+                                        <label>spo2</label>
+                                            <input type="text" class="text-center" style="width:80px">
+                                        <label>GCS E</label>
+                                            <input type="text" class="text-center" style="width:80px">
+                                        <label>V</label>
+                                            <input type="text" class="text-center" style="width:80px">
+                                        <label>M</label>
+                                            <input type="text" class="text-center" style="width:80px">
+                                    </div> 
+                                    <div class="form-group">
+                                        <label>&nbsp&nbsp&nbsp แพทย์รับCONSULT ชื่อ</label>
+                                                <input type="text" class="text-center" style="width:300px">
+                                        <label></label>
+                                        <label>&nbsp&nbsp&nbsp จนท. นำส่ง</label>
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> พขร
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> RN                                     <input type="radio" name="risk" id="inlineCheckbox1" value="option1"> Trauma
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> EMT                                    <input type="radio" name="risk" id="inlineCheckbox1" value="option1"> Trauma
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> AID
+                                    </div> 
+                                </div>
                             </div>
                         </div>
                     </div>
