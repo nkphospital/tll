@@ -2,5 +2,5 @@
 
 
 @section('content')
-<a href="{{url('administrator/user')}}">new user</a>
+<a href="{{url('administrator/user/new')}}">new user</a>
 @endsection

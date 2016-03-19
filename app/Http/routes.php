@@ -10,10 +10,16 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::get('/', function(){
+	return redirect('home');
+});
 
 Route::controller('home', 'HomeController');
 Route::controller('patient', 'PatientController');
 Route::controller('referout', 'ReferoutController');
+
+Route::controller('auth', 'Auth\AuthController');
+
 Route::group(['prefix'=>'administrator'], function(){
 
 	Route::get('/', 'Administrators\AdministratorController@index');

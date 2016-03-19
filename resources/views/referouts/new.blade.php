@@ -79,26 +79,24 @@
                         </div>
                     </div>
                 </div>  
+                <hr/>
                 <div class="row">
                     <div class="col-lg-12">
                         <ul class="nav nav-tabs">
-                            <li class="active"><a href="#home" data-toggle="tab">Home</a>
+                            <li class="active"><a href="#home" data-toggle="tab">ข้อมูลการส่งต่อ</a>
                             </li>
-                            <li class=""><a href="#profile" data-toggle="tab">Profile</a>
+                            <li class=""><a href="#profile" data-toggle="tab">อาการ</a>
                             </li>
                             <li class=""><a href="#messages" data-toggle="tab">Messages</a>
                             </li>
                             <li class=""><a href="#settings" data-toggle="tab">Settings</a>
                             </li>
                         </ul>
-
                         <div class="tab-content">
                             <div class="tab-pane fade active in" id="home">
                                 <h4></h4>
                                 <div class="form-horizontal">
                                     <fieldset>
-
-
                                       <!-- Text input-->
                                       <div class="form-group">
                                         <label class="col-sm-2 control-label" for="textinput">Line 1</label>
@@ -106,7 +104,6 @@
                                           <input type="text" placeholder="Address Line 1" class="form-control">
                                         </div>
                                       </div>
-
                                       <!-- Text input-->
                                       <div class="form-group">
                                         <label class="col-sm-2 control-label" for="textinput">Line 2</label>
@@ -114,7 +111,6 @@
                                           <input type="text" placeholder="Address Line 2" class="form-control">
                                         </div>
                                       </div>
-
                                       <!-- Text input-->
                                       <div class="form-group">
                                         <label class="col-sm-2 control-label" for="textinput">City</label>
@@ -122,22 +118,17 @@
                                           <input type="text" placeholder="City" class="form-control">
                                         </div>
                                       </div>
-
                                       <!-- Text input-->
                                       <div class="form-group">
                                         <label class="col-sm-2 control-label" for="textinput">State</label>
                                         <div class="col-sm-4">
                                           <input type="text" placeholder="State" class="form-control">
                                         </div>
-
                                         <label class="col-sm-2 control-label" for="textinput">Postcode</label>
                                         <div class="col-sm-4">
                                           <input type="text" placeholder="Post Code" class="form-control">
                                         </div>
                                       </div>
-
-
-
                                       <!-- Text input-->
                                       <div class="form-group">
                                         <label class="col-sm-2 control-label" for="textinput">Country</label>
@@ -145,11 +136,10 @@
                                           <input type="text" placeholder="Country" class="form-control">
                                         </div>
                                       </div>
-
-
                                     </fieldset>
                                 </div>
                             </div>
+
                             <div class="tab-pane fade" id="profile">
                                 <h4>Profile Tab</h4>
                                 <div class="table-responsive">

@@ -3,49 +3,77 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
-use Validator;
-use App\Http\Controllers\Controller;
-use Illuminate\Foundation\Auth\ThrottlesLogins;
-use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Sentinel;
+use Activation;
+// use Validator;
+use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
+// use Illuminate\Foundation\Auth\ThrottlesLogins;
+// use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller
 {
-    /*
-    |--------------------------------------------------------------------------
-    | Registration & Login Controller
-    |--------------------------------------------------------------------------
-    |
-    | This controller handles the registration of new users, as well as the
-    | authentication of existing users. By default, this controller uses
-    | a simple trait to add these behaviors. Why don't you explore it?
-    |
-    */
-
-    use AuthenticatesAndRegistersUsers, ThrottlesLogins;
-
-    /**
-     * Where to redirect users after login / registration.
-     *
-     * @var string
-     */
-    protected $redirectTo = '/';
-
-    /**
-     * Create a new authentication controller instance.
-     *
-     * @return void
-     */
     public function __construct()
     {
-        $this->middleware('guest', ['except' => 'logout']);
+        //$this->middleware('guest', ['except' => 'logout']);
     }
 
-    /**
-     * Get a validator for an incoming registration request.
-     *
-     * @param  array  $data
-     * @return \Illuminate\Contracts\Validation\Validator
-     */
+    
+    public function getIndex()
+    {
+        return 'sd';
+    }
+
+    public function getLogin()
+    {
+        // $credentials = [
+        //     'email'    => 'test',
+        //     'password' => 'test',
+        // ];
+
+        $user = Sentinel::check();
+
+        return view('auth.login')
+            ->with(compact('user'));
+    }
+    public function postLogin(Request $request)
+    {
+        Sentinel::basic();
+
+        $credentials = [
+            'email'    => 'test',
+            'password' => 'test',
+        ];
+
+        if ($user = Sentinel::stateless($credentials))
+        {
+            Sentinel::login($user);
+            return $user;
+        }
+        else
+        {
+            // Authentication failed.
+        }
+
+        return redirect('auth/login');
+
+        // if ($user = Sentinel::stateless($credentials))
+        // {
+        //     Sentinel::login($user);
+
+        //     return redirect('home');
+        // }
+        // else
+        // {
+        //     return "false";
+        // }
+    }
+
+    public function getLogout()
+    {
+        return redirect('auth/login');
+    }
+
     protected function validator(array $data)
     {
         return Validator::make($data, [
@@ -55,12 +83,7 @@ class AuthController extends Controller
         ]);
     }
 
-    /**
-     * Create a new user instance after a valid registration.
-     *
-     * @param  array  $data
-     * @return User
-     */
+   
     protected function create(array $data)
     {
         return User::create([
