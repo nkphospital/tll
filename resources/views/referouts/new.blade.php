@@ -25,7 +25,7 @@
                             <fieldset>
 
                               <!-- Form Name -->
-                              <legend>ข้อมูลการส่งต่อ</legend>
+                              <legend>Data Forwarding</legend>
 
                               <!-- Text input-->
                               <div class="form-group">
@@ -39,8 +39,8 @@
                                   <input type="text" class="form-control">
                                 </div>
 
-                                <label class="col-xs-2 control-label" for="textinput">รับแจ้งจาก รพ/ตึก</label>
-                                <div class="col-xs-3">
+                                <label class="col-xs-3 control-label" for="textinput">Informed by the hospital / building</label>
+                                <div class="col-xs-2">
                                     <input type="text" class="form-control">
                                 </div>
 
@@ -52,7 +52,7 @@
                               </div>
 
                               <!-- Text input-->
-                              <legend>ข้อมูลผู้ป่วย</legend>
+                              <legend>Patient information</legend>
                               <div class="form-group">
 
                                 <label class="col-xs-1 control-label" for="textinput">PERFIX</label>
@@ -131,11 +131,11 @@
                         <ul class="nav nav-tabs">
                             <li class="active"><a href="#Fastrac" data-toggle="tab">Fastrac MI/Stroke</a>
                             </li>
-                            <li><a href="#home" data-toggle="tab">อาการแรกรับ</a>
+                            <li><a href="#home" data-toggle="tab">Admission Symptoms</a>
                             </li>
-                            <li class=""><a href="#profile" data-toggle="tab">การรักษาที่ได้รับ</a>
+                            <li class=""><a href="#profile" data-toggle="tab">The treatment received</a>
                             </li>
-                            <li class=""><a href="#messages" data-toggle="tab">การรักษา/อาการที่ส่งต่อ</a>
+                            <li class=""><a href="#messages" data-toggle="tab">Treatment / symptoms Forward</a>
                             </li>
                             <li class=""><a href="#settings" data-toggle="tab">CONSULT</a>
                             </li>
@@ -176,7 +176,7 @@
                                         </div> 
 
                                         <div class="form-group">
-                                            <label>&nbsp&nbsp&nbsp V/S แรกรับ BP</label>
+                                            <label>&nbsp&nbsp&nbsp V/S admission BP</label>
                                                 <input type="text" class="text-center" style="width:50px">/<input type="text" class="text-center" style="width:50px">
                                             <label>mmHg</label>
                                             <label>P</label>
