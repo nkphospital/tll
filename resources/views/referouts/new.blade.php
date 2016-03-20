@@ -129,21 +129,11 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <ul class="nav nav-tabs">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                            <li class="active"><a href="#home" data-toggle="tab">ข้อมูลการส่งต่อ</a>
-                            </li>
-                            <li class=""><a href="#profile" data-toggle="tab">อาการ</a>
-=======
-                            <li class="active"><a href="#home" data-toggle="tab">อาการแรกรับ</a>
-=======
                             <li class="active"><a href="#Fastrac" data-toggle="tab">Fastrac MI/Stroke</a>
                             </li>
                             <li><a href="#home" data-toggle="tab">อาการแรกรับ</a>
->>>>>>> origin/master
                             </li>
                             <li class=""><a href="#profile" data-toggle="tab">การรักษาที่ได้รับ</a>
->>>>>>> origin/master
                             </li>
                             <li class=""><a href="#messages" data-toggle="tab">การรักษา/อาการที่ส่งต่อ</a>
                             </li>
@@ -156,53 +146,6 @@
                                 <h4></h4>
                                 <div class="form-horizontal">
                                     <fieldset>
-<<<<<<< HEAD
-                                      <!-- Text input-->
-                                      <div class="form-group">
-                                        <label class="col-xs-2 control-label" for="textinput">Line 1</label>
-                                        <div class="col-xs-10">
-                                          <input type="text" placeholder="Address Line 1" class="form-control">
-                                        </div>
-                                      </div>
-                                      <!-- Text input-->
-                                      <div class="form-group">
-                                        <label class="col-xs-2 control-label" for="textinput">Line 2</label>
-                                        <div class="col-xs-10">
-                                          <input type="text" placeholder="Address Line 2" class="form-control">
-                                        </div>
-                                      </div>
-                                      <!-- Text input-->
-                                      <div class="form-group">
-                                        <label class="col-xs-2 control-label" for="textinput">City</label>
-                                        <div class="col-xs-10">
-                                          <input type="text" placeholder="City" class="form-control">
-                                        </div>
-                                      </div>
-                                      <!-- Text input-->
-                                      <div class="form-group">
-                                        <label class="col-xs-2 control-label" for="textinput">State</label>
-                                        <div class="col-xs-4">
-                                          <input type="text" placeholder="State" class="form-control">
-                                        </div>
-<<<<<<< HEAD
-                                        <label class="col-sm-2 control-label" for="textinput">Postcode</label>
-                                        <div class="col-sm-4">
-=======
-
-                                        <label class="col-xs-2 control-label" for="textinput">Postcode</label>
-                                        <div class="col-xs-4">
->>>>>>> origin/master
-                                          <input type="text" placeholder="Post Code" class="form-control">
-                                        </div>
-                                      </div>
-                                      <!-- Text input-->
-                                      <div class="form-group">
-                                        <label class="col-xs-2 control-label" for="textinput">Country</label>
-                                        <div class="col-xs-10">
-                                          <input type="text" placeholder="Country" class="form-control">
-                                        </div>
-                                      </div>
-=======
                                         <div class="form-group">
                                             <label>&nbsp&nbsp&nbsp LR G</label>
                                                 <input type="text" class="text-center" style="width:50px">
@@ -260,7 +203,6 @@
                                 <div class="form-horizontal">
                                     <fieldset>
                                         <textarea class="form-control" rows="5"></textarea>
->>>>>>> origin/master
                                     </fieldset>
                                 </div>
                             </div>
@@ -305,9 +247,53 @@
                                         <label></label>
                                         <label>&nbsp&nbsp&nbsp จนท. นำส่ง</label>
                                             <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> พขร
-                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> RN                                     <input type="radio" name="risk" id="inlineCheckbox1" value="option1"> Trauma
-                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> EMT                                    <input type="radio" name="risk" id="inlineCheckbox1" value="option1"> Trauma
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> RN
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> EMT
                                             <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> AID
+                                    </div> 
+                                    <div class="form-group">
+                                        <label>&nbsp&nbsp&nbsp เอกสารผู้ป่วยที่จำเป็น</label>  
+                                    </div>
+                                    <div class="form-group">
+                                            <label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> ใบRefer
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> X-ray                                
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> CT
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> EKG
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> LAB
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> สิทธิบัตร 
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> ใบRequest 
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> อื่นๆ 
+                                    </div>
+                                    <div class="form-group">
+                                        <label>&nbsp&nbsp&nbsp ปัญหาที่พบในขณะส่งต่อ</label>  
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="5"></textarea> 
+                                    </div>
+                                    <div class="form-group">
+                                        <label>&nbsp&nbsp&nbsp ผู้ประสาน</label>
+                                                <input type="text" class="text-center" style="width:300px">
+                                        <label></label>
+                                        <label>
+                                        (
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> แพทย์
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> พยาบาล  
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> EMT 
+                                        )
+                                        </label>
+
+                                        <label>&nbsp&nbsp&nbsp ผู้ประสาน</label>
+                                                <input type="text" class="text-center" style="width:300px">
+                                        <label></label>
+                                        <label>
+                                        (
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> แพทย์
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> พยาบาล  
+                                            <input type="radio" name="refer" id="inlineCheckbox1" value="option1"> EMT
+                                        )
+                                        </label>
+
                                     </div> 
                                 </div>
                             </div>
